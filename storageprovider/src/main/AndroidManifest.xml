@@ -9,7 +9,7 @@
 
         <provider
             android:name="com.github.mjdev.libaums.storageprovider.UsbDocumentProvider"
-            android:authorities="com.github.mjdev.libaums.storageprovider.documents"
+            android:authorities="${applicationId}.storageprovider.documents"
             android:exported="true"
             android:grantUriPermissions="true"
             android:permission="android.permission.MANAGE_DOCUMENTS"
